@@ -1,0 +1,55 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+    "abi": [
+        {
+            "name": "can_update",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "pause",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "canAirdrop",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "calcAidropAmt",
+            "args": [],
+            "amountLimit": []
+        },
+        {
+            "name": "donate",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [{
+                "token": "*",
+                "val": "unlimited"
+            }]
+        },
+        {
+            "name": "airdrop",
+            "args": [],
+            "amountLimit": []
+        },
+        {
+            "name": "withdraw",
+            "args": [
+                "string",
+                "string"
+            ],
+            "amountLimit": []
+        }
+    ]
+}
